@@ -26,10 +26,8 @@ mkdir -p /home/ubuntu/
 sudo chown -R 999.999 /home/ubuntu/
 sudo cp /etc/skel/.??* /home/ubuntu
 sudo chown -R 999.999 /home/ubuntu/.??*
-echo "
-# ROS setup
-source /opt/ros/$ROSDISTRO/setup.bash
-# This file is created on ${DATE}
-" >> /home/ubuntu/.bashrc
+
+sudo sh -c "echo 'source /opt/ros/melodic/setup.bash' >> ~/.bashrc"
+
 HOME=/home/ubuntu rosdep update
 sudo chown -R 999.999 /home/ubuntu/.ros
