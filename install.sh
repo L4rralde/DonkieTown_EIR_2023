@@ -23,3 +23,17 @@ apt install python-rosdep python-rosinstall python-rosinstall-generator python-w
 apt install python-rosdep
 rosdep init
 rosdep update
+
+# make home directory
+mkdir -p /home/ubuntu/
+chown -R 999.999 /home/ubuntu/
+cp /etc/skel/.??* /home/ubuntu
+chown -R 999.999 /home/ubuntu/.??*
+echo "
+# ROS setup
+source /opt/ros/$ROSDISTRO/setup.bash
+
+# This file is created on ${DATE}
+" >> /home/ubuntu/.bashrc
+HOME=/home/ubuntu rosdep update
+chown -R 999.999 /home/ubuntu/.ros
