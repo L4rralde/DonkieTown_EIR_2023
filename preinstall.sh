@@ -27,7 +27,7 @@ sudo chown -R 999.999 /home/ubuntu/
 sudo cp /etc/skel/.??* /home/ubuntu
 sudo chown -R 999.999 /home/ubuntu/.??*
 
-sudo sh -c "echo 'source /opt/ros/melodic/setup.bash' >> ~/.bashrc"
+sudo sh -c "echo 'source /opt/ros/melodic/setup.bash' >> /home/ubuntu/.bashrc"
 
 HOME=/home/ubuntu rosdep update
 sudo chown -R 999.999 /home/ubuntu/.ros
