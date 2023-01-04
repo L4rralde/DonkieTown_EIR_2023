@@ -3,6 +3,8 @@
 
 ## Configuración
 ### Generar contraseña
-En una nootbook de python3:
-`from notebook.auth import passwd`
-`passwd()`
+En una nootebook de python3:
+```
+from notebook.auth import passwd
+passwd()
+```
