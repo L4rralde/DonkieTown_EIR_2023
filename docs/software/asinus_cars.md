@@ -49,7 +49,7 @@ roslaunch asinus_car prime.launch car_id:=*<car_id>* [heart_rate:=25]
 
 Standalone launch:
 ```
-
+roslaunch ros_deep_learning video_source.ros1.launch
 ```
 |Topic	|	Type|Msg type|
 | ---	|	---	|	---	|
