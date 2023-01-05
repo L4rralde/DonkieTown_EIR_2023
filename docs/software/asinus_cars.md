@@ -18,6 +18,6 @@ roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 ```
 roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 ```
-$$
-prime = core + obstacle_localization
-$$
+<div align="center">
+	prime = core + obstacle_localization
+</div>
