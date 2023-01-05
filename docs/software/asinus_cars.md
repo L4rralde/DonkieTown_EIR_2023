@@ -18,7 +18,7 @@ roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 ```
 <div align="center">
-	prime = core + obstacle_localization
+	prime = [core](#Core) + obstacle_localization
 </div>
 
 |Tópico	|	Tipo|Tipo de Mensaje|
