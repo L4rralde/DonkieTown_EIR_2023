@@ -1,8 +1,8 @@
 # Asinus Cars
 ## Nodos
-Nodo core
+### Core node
 ```
-roslaunch asinus_car  car_id:=<aruco_id>
+roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 ```
 
 |Tópico	|	Tipo|Tipo de Mensaje|
@@ -13,3 +13,11 @@ roslaunch asinus_car  car_id:=<aruco_id>
 |/asinus_cars/*<car_id>*/filtered_pose|Publisher|geometry_msgs/PoseWithCovarinceStamped|
 |/asinus_cars/*<car_id>*/motors_driver|Subscriber|donkietown_msgs/MotorsSpeed|
 |/fake_gps/ego_pose_raw/*<car_id>*|Subscriber|geometry_msgs/PoseWithCovarinceStamped|
+
+### Node prime
+```
+roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
+```
+$$
+prime = core + obstacle_localization
+$$
