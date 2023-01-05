@@ -8,11 +8,6 @@ roslaunch fake_gps fake_gps.launch [upcam_id:=0] [cam_port:=0] [resolution:=720p
 - Nodes
 	- [multicam_fake_gps](#Multicam_Fake_GPS)
 
-### Map_Publisher
-```
-roslaunch map_publisher robotics_lab.launch
-```
-
 ### Network
 ```
 roslaunch vehicular_communication network.launch debug:=True [latency=0.1] [cluster_time_window:=2.0] [cluster_eps:=0.1] [cluster_min:=5] [cluster_rate:=2.0]
@@ -22,6 +17,11 @@ roslaunch vehicular_communication network.launch debug:=True [latency=0.1] [clus
 - Nodes
 	- [vehicular_network](#Vehicular_Network)
 	- [sensor_sharing](#Sensor_Sharing)
+
+### Map_Publisher
+```
+roslaunch map_publisher robotics_lab.launch
+```
 
 ## Nodes
 ### Multicam_Fake_GPS
