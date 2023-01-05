@@ -21,10 +21,13 @@ Sabemos que Ros Melodic y Ubuntu 18 son versiones ya despreciadas. Sin embargo, 
 ## Acerca de DonkieTown
 El repo oficial De DonkieTown lo puedes encontrar [aquí](https://github.com/L4rralde/DonkieTown). Sin embergo, para este curso no es necesario instalar el repositorio, pues una computadora central y los vehículos ejecutarán todos los programas que sean necesarios. Por lo tanto, toda la información requerida será incluida en este repositorio.
 
+## Acerca de AutoMiny
+AutoMiny es un vehículo inteligente a escala hecho para la educación. La plataforma fue creada en la Universidad Libre de Berlín. A través de un consorcio de Inteligencia Artificial de CONACyT, se donarron dos AutoMinys al CIMAT Zacatecas, pero no se ha hecho una actualización de ROS desde entonces y sigue funcionando con ROS Melodic. La wiki oficial más actualizada del AutoMiny la puedes encontrar [aquí](https://autominy.github.io/AutoMiny/). El repositorio de la versión ROS Melodic está en este [enlace](https://github.com/AutoMiny/AutoMiny/tree/melodic).
 
 ## Temas
-- [ ] Sobre ROS (Qué es, Historia, y dónde se usa)
-- [ ] Conocimientos previos (Ubuntu,Shell,C/C++,python,Git)
+- [x] Sobre ROS (Qué es, Historia, y dónde se usa)
+- [x] Conocimientos previos (Ubuntu,Shell,C/C++,python,Git)
+- [ ] DonkieTown y AutoMiny.
 - [ ] Cómo iniciar un proyecto en ROS.
-- [ ] Cómo crear un mensaje en ROS.
 - [ ] Cómo crear un nodo.
+- [ ] Cómo crear un mensaje en ROS.
