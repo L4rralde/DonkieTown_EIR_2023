@@ -23,7 +23,7 @@ roslaunch asinus_car obstacle_localization.launch car_id:=*<car_id>* [debug:=Fal
 - Launch files
 	- [donkienet](#DonkieNet)
 - Nodes
-	- [road_context/obstacle_localization](#Road_Context/Obstacle_Localization)
+	- [road_context/obstacle_localization](#Road_Context-Obstacle_Localization)
 
 ### Prime
 ```
@@ -65,7 +65,7 @@ Standalone launch:
 |/asinus_cars/*<car_id>*/video_source/raw|Subscriber|sensor_msgs/Image|
 
 
-### Road_Context/Obstacle_Localization
+### Road_Context-Obstacle_Localization
 
 |Topic	|	Type|Msg type|
 | ---	|	---	|	---	|
