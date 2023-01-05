@@ -4,7 +4,7 @@
 ```
 roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 ```
-
+#core_topics
 |Tópico	|	Tipo|Tipo de Mensaje|
 | ---	|	---	|	---	|
 |/asinus_cars/*<car_id>*/camera/pose|Publisher|geometry_msgs/PoseStamped|
@@ -24,7 +24,7 @@ roslaunch asinus_car  car_id:=*<car_id>* [heart_rate:=25]
 
 |Tópico	|	Tipo|Tipo de Mensaje|
 | ---	|	---	|	---	|
-|Core topics|
+|[Core topics}(#core_topics)|
 |/asinus_cars/*<car_id>*/camera/camera_info|Publisher|sensor_msgs/CameraInfo|
 |/asinus_cars/*<car_id>*/motors_raw_data|Publisher|donkietown_msgs/MotorsState|
 |/asinus_cars/*<car_id>*/filtered_pose|Publisher|geometry_msgs/PoseWithCovarinceStamped|
