@@ -1,5 +1,5 @@
 # Instrucciones
-`jupyter notebook --config=./jupyter_notebook_config.py`
+`~/.local/bin/jupyter-lab --config=./jupyter_notebook_config.py`
 
 ## Configuración
 ### Generar contraseña
