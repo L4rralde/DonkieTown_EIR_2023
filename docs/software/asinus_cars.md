@@ -22,7 +22,8 @@ roslaunch asinus_car obstacle_localization.launch car_id:=*<car_id>* [debug:=Fal
 ```
 - Launch files
 	- [donkienet](#DonkieNet)
-	- road_context/obstacle_localization
+- Nodes
+	- [road_context/obstacle_localization](#Road_Context/Obstacle_Localization)
 
 ### Prime
 ```
@@ -44,7 +45,18 @@ roslaunch asinus_car prime.launch car_id:=*<car_id>* [heart_rate:=25]
 |/asinus_cars/*<car_id>*/motors_driver|Subscriber|donkietown_msgs/MotorsSpeed|
 |/fake_gps/ego_pose_raw/*<car_id>*|Subscriber|geometry_msgs/PoseWithCovarinceStamped|
 
+### Video_Source
+
+Standalone launch:
+```
+
+```
+|Topic	|	Type|Msg type|
+| ---	|	---	|	---	|
+|/asinus_cars/*<car_id>*/video_source/raw|Publisher|sensor_msgs/Image|
+
 ### Detectnet
+
 |Topic	|	Type|Msg type|
 | ---	|	---	|	---	|
 |/asinus_cars/*<car_id>*/detectnet<!--?-->/detections|Publisher|vision_msgs/Detection2DArray|
@@ -52,7 +64,12 @@ roslaunch asinus_car prime.launch car_id:=*<car_id>* [heart_rate:=25]
 |/asinus_cars/*<car_id>*/detectnet/vision_info|Publisher|vision_msgs/VisionInfo|
 |/asinus_cars/*<car_id>*/video_source/raw|Subscriber|sensor_msgs/Image|
 
-### Video_Source
+
+### Road_Context/Obstacle_Localization
+
 |Topic	|	Type|Msg type|
 | ---	|	---	|	---	|
-|/asinus_cars/*<car_id>*/video_source/raw|Publisher|sensor_msgs/Image|
+|/v2x/sensors/obstacles/raw|Publisher|sensor_msgs/PointCloud|
+|/asinus_cars/*<car_id>*/camera/pose|Subscriber|geometry_msgs/PoseStamped|
+|/asinus_cars/*<car_id>*/camera/camera_info|Subscriber|sensor_msgs/CameraInfo|
+|/asinus_cars/*<car_id>*/detectnet<!--?-->/detections|Subscriber|vision_msgs/Detection2DArray|
