@@ -1,4 +1,4 @@
-# Instrucciones
+# Instrucciones para habilitar jupyterlab.
 ## Instala jupyterlab
 ```
 sudo apt update
