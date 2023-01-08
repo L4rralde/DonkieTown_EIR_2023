@@ -1,11 +1,11 @@
 # Bienvenido a *ROS y conducción autónoma con DonkieTown y AutoMiny*
 
 ## Agenda
-1. [Breve historia de ROS](https://docs.google.com/presentation/d/1448rrzZO1TJ6_GUowgdLRBvesh_EeMGizCUs7hxbvyo/edit?usp=share_link).
-
-2. ¿Cómo trabajaremos en este curso?
+1. ¿Cómo trabajaremos en este curso?
 - Clases introductorias con Gazebo en la versión más nueva de ROS1.
 - Prácticas de modelos reales con ROS1 Melodic.
+
+2. [Breve historia de ROS](https://docs.google.com/presentation/d/1448rrzZO1TJ6_GUowgdLRBvesh_EeMGizCUs7hxbvyo/edit?usp=share_link). <!--20 minutos -->
 
 ¿Quieres instalar el software? Puedes encontrar más información en [install.md](install.md). 
 
@@ -18,6 +18,16 @@
 
 También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf). 
 
+4. Clase introductoria a ROS por el Dr. Uziel.
+
+5. AutoMiny y DonkieTown
+
+6. Formación de equipos de trabajo.
+
+7. Tutorial para usar el equipo.
+	- Acceder a Jupyter.
+	- Tour por Jupyter Lab.
+	- [Software a bordo](software/README.md).
 
 ## Temas
 - [x] Sobre ROS (Qué es, Historia, y dónde se usa). Emmanuel.
