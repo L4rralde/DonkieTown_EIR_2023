@@ -20,7 +20,7 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 
 ### 4. Clase introductoria a ROS por el Dr. Uziel.
 
-### 5. AutoMiny y DonkieTown
+### 5. [AutoMiny y DonkieTown](https://docs.google.com/presentation/d/1aW7goNB1AgBjKIaIBLm7a35ICOMWwXzFtctW1BGF978/edit?usp=share_link)
 
 ### 6. Formación de equipos de trabajo.
 
