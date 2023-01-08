@@ -10,11 +10,11 @@
 ¿Quieres instalar el software? Puedes encontrar más información en [install.md](install.md). 
 
 ### 3. Conocimientos previos:
-	- Ubuntu
-	- Linux shells y [comandos](utils/linux_cheat_sheet.pdf).
-	- [Git](utils/git-cheat-sheet.pdf)
-	- python
-	- C/C++
+- Ubuntu
+- Linux shells y [comandos](utils/linux_cheat_sheet.pdf).
+- [Git](utils/git-cheat-sheet.pdf)
+- python
+- C/C++
 
 También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf). 
 
@@ -25,9 +25,9 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 ### 6. Formación de equipos de trabajo.
 
 ### 7. Tutorial para usar el equipo.
-	- Acceder a Jupyter.
-	- Tour por Jupyter Lab.
-	- [Software a bordo](software/README.md).
+- Acceder a Jupyter.
+- Tour por Jupyter Lab.
+- [Software a bordo](software/README.md).
 
 ## TODO
 - [x] Sobre ROS (Qué es, Historia, y dónde se usa). Emmanuel.
