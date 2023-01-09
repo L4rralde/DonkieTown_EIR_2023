@@ -1,5 +1,9 @@
 # Bienvenido a *ROS y conducción autónoma con DonkieTown y AutoMiny*
 
+<p align="center">
+	<img src=https://github.com/L4rralde/DonkieTown_EIR_2023/blob/master/docs/imgs/repos-qr-code.png"/>
+</p>
+
 ## Agenda
 ### 1. ¿Cómo trabajaremos en este curso?
 - Clases introductorias con Gazebo en la versión más nueva de ROS1.
