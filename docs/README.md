@@ -29,6 +29,9 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 - Tour por Jupyter Lab.
 - [Software a bordo](software/README.md).
 
+### 8. Retos.
+1. Conducir de un extremo a otro del salón, sin chocar.
+<!--
 ## TODO
 - [x] Sobre ROS (Qué es, Historia, y dónde se usa). Emmanuel.
 - [x] Conocimientos previos (Ubuntu,Shell,C/C++,python,Git). Emmanuel.
@@ -36,3 +39,4 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 - [x] Cómo iniciar un proyecto en ROS. Uziel.
 - [x] Cómo crear un nodo. Uziel
 - [ ] Cómo crear un mensaje en ROS.
+-->
