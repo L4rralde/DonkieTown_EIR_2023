@@ -1,7 +1,7 @@
 # Bienvenido a *ROS y conducción autónoma con DonkieTown y AutoMiny*
 
 <p align="center">
-	<img src="https://github.com/L4rralde/DonkieTown_EIR_2023/blob/master/docs/imgs/repos-qr-code.png"/>
+	<img src="https://github.com/L4rralde/DonkieTown_EIR_2023/blob/master/docs/imgs/repos-qr-code.png" width="200" height="200"/>
 </p>
 
 ## Agenda
