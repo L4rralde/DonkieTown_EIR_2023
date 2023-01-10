@@ -40,9 +40,12 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 4. Freno automático.
 4. Opciones del público.
 
-<footer>
-	Esto es un pie de página.
-</footer>
+## Contacto
+- Dr. Uziel Jaramillo
+	- uziel.jaramillo@cimat.mx
+- Emmanuel Larralde
+	- ealarralde@gmail.com
+	
 <!--
 ## TODO
 - [x] Sobre ROS (Qué es, Historia, y dónde se usa). Emmanuel.
