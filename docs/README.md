@@ -34,7 +34,15 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 - [Software a bordo](software/README.md).
 
 ### 8. Retos.
-1. Conducir de un extremo a otro del salón, sin chocar.
+1. Conducir en linea recta o formar un círculo.
+2. Teleoperación con teclado, joystick o widgets de jupyter (no probado).
+3. Llegar a una coordenada $(x,y)$ establecida o realizar un desplazamiento relativo.
+4. Freno automático.
+4. Opciones del público.
+
+<footer>
+	Esto es un pie de página.
+</footer>
 <!--
 ## TODO
 - [x] Sobre ROS (Qué es, Historia, y dónde se usa). Emmanuel.
@@ -42,5 +50,5 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 - [x] DonkieTown y AutoMiny. Emmanuel.
 - [x] Cómo iniciar un proyecto en ROS. Uziel.
 - [x] Cómo crear un nodo. Uziel
-- [ ] Cómo crear un mensaje en ROS.
+- [ ] Crar plantillas en C++ y python2
 -->
