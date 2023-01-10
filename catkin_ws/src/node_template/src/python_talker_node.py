@@ -16,7 +16,7 @@ class Node:
 			rate.sleep()
 
 def main():
-	rospy.init_node("python_node",anonymous=True)
+	rospy.init_node("python_talker_node",anonymous=True)
 	node = Node()
 	node.talk(1)
 
