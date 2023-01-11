@@ -39,12 +39,12 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 Las soluciones pueden encontrarse en
 - AutoMiny:
 	- C++ (roscpp):
-		[/catkin_ws/src/solucion_autominy_cpp/src](../catkin_ws/src/solucion_autominy_cpp/src)
+		[catkin_ws/src/solucion_autominy_cpp/src](../catkin_ws/src/solucion_autominy_cpp/src)
 	- Python (rospy):
-		[/catkin_ws/src/solucion_autominy_py](../catkin_ws/src/solucion_autominy_py/src)
+		[catkin_ws/src/solucion_autominy_py](../catkin_ws/src/solucion_autominy_py/src)
 - Asinus Car:
 	- roscpp:
-		[/catkin_ws/src/solucion_asinus_car_cpp/src](../catkin_ws/src/solucion_asinus_car_cpp/src)
+		[catkin_ws/src/solucion_asinus_car_cpp/src](../catkin_ws/src/solucion_asinus_car_cpp/src)
 	- rospy:
 		Pendiente
 
