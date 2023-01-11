@@ -35,10 +35,18 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 
 ### 8. Retos.
 1. Conducir en linea recta o formar un círculo.
-2. Teleoperación con teclado, joystick o widgets de jupyter (no probado).
-3. Llegar a una coordenada $(x,y)$ establecida o realizar un desplazamiento relativo.
-4. Freno automático.
-4. Opciones del público.
+
+Las soluciones pueden encontrarse en
+- AutoMiny:
+	- C++ (roscpp):
+		[/catkin_ws/src/solucion_autominy_cpp/src](../catkin_ws/src/solucion_autominy_cpp/src)
+	- Python (rospy):
+		[/catkin_ws/src/solucion_autominy_py](../catkin_ws/src/solucion_autominy_py/src)
+- Asinus Car:
+	- roscpp:
+		[/catkin_ws/src/solucion_asinus_car_cpp/src](../catkin_ws/src/solucion_asinus_car_cpp/src)
+	- rospy:
+		Pendiente
 
 ## Contacto
 - Dr. Uziel Jaramillo
