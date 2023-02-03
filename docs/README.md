@@ -22,7 +22,7 @@
 
 También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf). 
 
-### 4. [Clase introductoria a ROS](ros_intro.md) por el Dr. Uziel.
+### 4. [Clase introductoria a ROS](ros_intro.md).
 
 ### 5. [AutoMiny y DonkieTown](https://docs.google.com/presentation/d/1aW7goNB1AgBjKIaIBLm7a35ICOMWwXzFtctW1BGF978/edit?usp=share_link)
 
@@ -35,7 +35,8 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 
 ### 8. Retos.
 1. Conducir en linea recta o formar un círculo.
-
+2. Programar una secuencia de movimiento.
+<!--
 Las soluciones pueden encontrarse en
 - AutoMiny:
 	- C++ (roscpp):
@@ -46,13 +47,17 @@ Las soluciones pueden encontrarse en
 	- roscpp:
 		[catkin_ws/src/solucion_asinus_car_cpp/src](../catkin_ws/src/solucion_asinus_car_cpp/src)
 	- rospy:
-		Pendiente
+		[catkin_ws/src/solucion_asinus_car_py/src](../catkin_ws/src/solucion_asinus_car_py/src)
+-->
 
 ## Contacto
-- Dr. Uziel Jaramillo
-	- uziel.jaramillo@cimat.mx
 - Emmanuel Larralde
 	- ealarralde@gmail.com
+- Dr. Diego Mercado
+	- diego.mercado@cimat.mx
+- Dr. Uziel Jaramillo
+	- uziel.jaramillo@cimat.mx
+- Mc. Flabio Mirelez
 	
 <!--
 ## TODO
@@ -61,5 +66,5 @@ Las soluciones pueden encontrarse en
 - [x] DonkieTown y AutoMiny. Emmanuel.
 - [x] Cómo iniciar un proyecto en ROS. Uziel.
 - [x] Cómo crear un nodo. Uziel
-- [ ] Crar plantillas en C++ y python2
+- [x] Crar plantillas en C++ y python2
 -->
