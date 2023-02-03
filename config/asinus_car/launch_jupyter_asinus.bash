@@ -1,0 +1,1 @@
+jupyter-lab --config=$COURSE_PATH/.jupyter/jupyter_notebook_config.py
