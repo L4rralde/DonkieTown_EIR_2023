@@ -2,3 +2,4 @@
 */build/
 */.catkin_workspace
 .ipynb_checkpoints/
+credentials.py
