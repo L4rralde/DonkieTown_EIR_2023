@@ -2,7 +2,7 @@
 import rospy
 from autominy_msgs.msg import NormalizedSpeedCommand, NormalizedSteeringCommand
 
-class Nodo:
+class Node:
 	def __init__(self):
 		self.vel_pub = rospy.Publisher("/actuators/speed_normalized",NormalizedSpeedCommand,queue_size=1)
 		self.giro_pub = rospy.Publisher("/actuators/steering_normalized",NormalizedSteeringCommand,queue_size=1)
@@ -27,8 +27,8 @@ class Nodo:
 
 def main():
 	rospy.init_node("autominy_driver",anonymous=True)
-	nodo = Nodo()
-	nodo.talk()
+	node = Node()
+	node.talk()
 
 if __name__=='__main__':
 	main()		
