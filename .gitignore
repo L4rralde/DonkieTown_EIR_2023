@@ -3,3 +3,5 @@
 */.catkin_workspace
 .ipynb_checkpoints/
 credentials.py
+no_commit/
+*__pycache__
