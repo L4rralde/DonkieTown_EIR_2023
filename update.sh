@@ -1,1 +1,2 @@
-sudo apt-get install python3-pygame
+#!/bin/bash
+sudo apt-get install python2-pygame
