@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install python2-pygame
+sudo apt-get install python-pygame
