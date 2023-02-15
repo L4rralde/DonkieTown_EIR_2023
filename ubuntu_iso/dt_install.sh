@@ -1,5 +1,3 @@
-sudo apt-get install python-pygame
-
 source /opt/ros/melodic/setup.sh
 cd /home/ubuntu/
 git clone https://github.com/L4rralde/DonkieTown_EIR_2023.git
