@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hola_ros</name>
+  <version>0.0.0</version>
+  <description>The hola_ros package</description>
+
+  <maintainer email="ealarralde@gmail.com">L4rralde</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <!-- todas las dependencias geometry_msgs son usadas por los nodos
+  que utilizan el msg Twist (publicador.cpp, subscriptor.cpp)-->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend> 
+  <build_depend>std_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+</package>
