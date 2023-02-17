@@ -1,6 +1,6 @@
 # Introducción a ROS
 
-En esta paǵina encontrarás un resumen de los nodos creados en la clase introductoria. Puedes acceder a las diapositivas empleadas en el siguiente [enlace](https://docs.google.com/presentation/d/11rba075v5t-SfsgQmFG1QgTjC17kRaaJnMfp66Bpsvo/edit?usp=sharing).
+En esta paǵina encontrarás un resumen de los nodos creados en la clase introductoria. Puedes acceder a las diapositivas empleadas en el siguiente [enlace](https://docs.google.com/presentation/d/11rba075v5t-SfsgQmFG1QgTjC17kRaaJnMfp66Bpsvo/edit?usp=sharing). El paquete creado en esta clase lo puedes encontrar en [catkin_ws/src/hola_ros](../catkin_ws/src/hola_ros)
 
 
 
