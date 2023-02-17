@@ -36,6 +36,7 @@ También se incluye un [acordeón de ROS1](utils/ROScheatsheet.pdf).
 ### 8. Retos.
 1. Conducir en linea recta o formar un círculo.
 2. Programar una secuencia de movimiento.
+3. Dirigirse a un punto.
 <!--
 Las soluciones pueden encontrarse en
 - AutoMiny:
