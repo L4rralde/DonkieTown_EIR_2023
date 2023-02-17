@@ -8,12 +8,16 @@ Usa este [video](https://www.youtube.com/watch?v=hf4RlArgodw) para guiarte.
 
 3. Posteriormente arranca el sistema operativo desde la memoria usb booteable. Usa este [video](https://www.youtube.com/watch?v=r-rYiUbudFw) como guía. El procedimiento para acceder a la BIOS y interfaz gráfica de la misma son diferentes para cada marca de computadora.
 
-4. Clona este repositorio
+4. Instala git
+```
+sudo apt install git
+```
+5. Clona este repositorio
 ```
 cd ~
 git clone https://github.com/L4rralde/DonkieTown_EIR_2023.git
 ```
-5. Ejecuta el script de instalación
+6. Ejecuta el script de instalación
 ```
 ~/DonkieTown_EIR_2023/.ubuntu_iso/full_install.sh
 ```
