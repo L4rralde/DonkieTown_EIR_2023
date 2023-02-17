@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt update
 source set_background.sh
 source install_ros.sh
 source install_donkietown.sh

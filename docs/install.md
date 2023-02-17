@@ -19,7 +19,8 @@ git clone https://github.com/L4rralde/DonkieTown_EIR_2023.git
 ```
 6. Ejecuta el script de instalación
 ```
-~/DonkieTown_EIR_2023/.ubuntu_iso/full_install.sh
+cd ~/DonkieTown_EIR_2023/.ubuntu_iso/
+./full_install.sh
 ```
 
 ### Opción B. Prueba nuestra imagen de Ubuntu.
