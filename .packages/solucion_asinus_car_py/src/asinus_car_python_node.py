@@ -5,6 +5,7 @@ from donkietown_msgs.msg import MotorsSpeed
 class Node:
 	def __init__(self):
 		self.pub = rospy.Publisher("/asinus_cars/9/motors_driver",MotorsSpeed,queue_size=1)
+		rospy.sleep(1)
 	def publish(self,left,right):
 		msg = MotorsSpeed()
 		msg.leftMotor = left

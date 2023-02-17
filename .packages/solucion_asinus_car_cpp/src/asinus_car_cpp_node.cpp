@@ -6,6 +6,7 @@ class Node{
 public:
 	Node(ros::NodeHandle *nh){
 		pub = nh->advertise<donkietown_msgs::MotorsSpeed>("/asinus_cars/9/motors_driver",1);
+		ros::Duration(1).sleep();
 	}
 	void publish(float left, float right){
 		donkietown_msgs::MotorsSpeed msg;

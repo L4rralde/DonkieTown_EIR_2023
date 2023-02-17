@@ -10,6 +10,7 @@ public:
 	Node(ros::NodeHandle *nh){
 		vel_pub = nh->advertise<autominy_msgs::NormalizedSpeedCommand>("/actuators/speed_normalized",1);
 		giro_pub = nh->advertise<autominy_msgs::NormalizedSteeringCommand>("/actuators/steering_normalized",1);
+		ros::Duration(1).sleep();
 	}
 	void publish(float vel, float giro){
 		autominy_msgs::NormalizedSpeedCommand vel_msg;

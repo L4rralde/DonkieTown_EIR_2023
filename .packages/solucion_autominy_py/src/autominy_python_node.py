@@ -6,6 +6,7 @@ class Node:
 	def __init__(self):
 		self.vel_pub = rospy.Publisher("/actuators/speed_normalized",NormalizedSpeedCommand,queue_size=1)
 		self.giro_pub = rospy.Publisher("/actuators/steering_normalized",NormalizedSteeringCommand,queue_size=1)
+		rospy.sleep(1)
 	def publish(self,velocidad,giro):
 		vel_msg = NormalizedSpeedCommand()
 		giro_msg = NormalizedSteeringCommand()
