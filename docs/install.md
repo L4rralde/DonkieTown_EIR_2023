@@ -10,6 +10,7 @@ Usa este [video](https://www.youtube.com/watch?v=hf4RlArgodw) para guiarte.
 
 4. Instala git
 ```
+sudo apt update
 sudo apt install git
 ```
 5. Clona este repositorio
