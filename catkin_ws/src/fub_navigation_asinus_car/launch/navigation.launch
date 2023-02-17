@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="car_id"/>
+	<arg name="model_car" default="AsinusCar"/>
+	<arg name="speed" default="0.2"/>
+	<arg name="map" default="cimat_reduced"/>
+	<arg name="look_ahead" default="30cm"/>
+	<arg name="lane" default="1"/>
+
+	<node name="navigation_$(arg car_id)" pkg="fub_navigation_asinus_car" type="control.py">
+		<param name="car_id" value="$(arg car_id)"/>
+		<param name="model_car" value="$(arg model_car)"/>
+		<param name="speed" value="$(arg speed)"/>
+		<param name="map_name" value="$(arg map)"/>
+		<param name="look_ahead" value="$(arg look_ahead)"/>
+		<param name="lane" value="$(arg lane)"/>
+	</node>
+</launch>
