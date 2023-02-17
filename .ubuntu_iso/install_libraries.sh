@@ -1,4 +1,3 @@
-#!/bin/bash
 sudo apt install ros-melodic-tf #rf_ros
 sudo apt-get install ros-melodic-cv-bridge #cv_bridge
 sudo apt-get install ros-melodic-vision-opencv #cv2
