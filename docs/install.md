@@ -50,6 +50,8 @@ Las instrucciones que usamos para habilitar Jupyter notebooks y Jupyter Lab las 
 ## Software de conducción
 No es necesario que instales en tu computadora el software de conducción porque cualquiera de los dos modelos de vehículos empleados (Asinus Car y AutoMiny) en este curso son capaces de procesar toda la información por su cuenta.
 
+###Opción E. [FUTURO]. Habilita proxys en Visual Studio Code.
+
 ### Asinus Car
 El Asinus Car es el modelo de vehpiculo inteligente distribuido en DonkieTown. Hasta el momento, tenemos 3 Asinus Cars y son todos vehículos diferenciales. El repo oficial De DonkieTown lo puedes encontrar [aquí](https://github.com/L4rralde/DonkieTown).
 
