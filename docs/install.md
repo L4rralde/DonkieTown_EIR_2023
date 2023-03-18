@@ -1,6 +1,6 @@
 # Instrucciones de Instalación
 ## En tu computadora
-### Opción A. [Experimental] Instala la versión oficial de Ubuntu 18.04LTS para tu computadora y usa nuestro script de instalación completa.
+### Opción A. [Recomendada] Instala la versión oficial de Ubuntu 18.04LTS para tu computadora y usa nuestro script de instalación completa.
 1. Descarga la imagen *Desktop Image* de Ubuntu 18.04LTs de la [página oficial](https://releases.ubuntu.com/18.04/).
 
 2. Haz una memoria usb booteable usando [Balena Etcher](https://www.balena.io/etcher)
@@ -38,7 +38,7 @@ Hemos generado una imagen (archivo .iso) de Ubuntu para que cualquier dispositiv
 5. Cuando arranque Ubuntu, no lo instales, sólo "pruébalo" (opción *Try Ubuntu*)
 ![Prueba Ubuntu](imgs/try_ubuntu.jpg)
 
-Listo, ya no deberias preocuparte por instalar algún programa
+Listo, ya no deberias preocuparte por instalar algún programa.
 
 ### Opción C. Jupyter notebooks
 Sabemos que Ros Melodic y Ubuntu 18 son versiones ya despreciadas. Sin embargo, como tanto AutoMiny como DonkieTown funcionan sobre estas, decidimos usar Jupyter Notebook como interfaz entre cualquier computadora (con un navegador) y las computadoras de los vehículos. Entonces todo lo que necesitas es un navegador. La desventaja de hacerlo así es que no podrás usar los programas gráficos de ROS, así que recomendamos ampliamente la primera opción.
